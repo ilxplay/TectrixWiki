@@ -1,0 +1,29 @@
+site_name: Tectrix Wiki
+site_url: https://tectrixwiki.com
+theme: 
+  name: material
+  logo: assets/logo.png
+  favicon: assets/faviconTetrix.ico
+  palette: 
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Light mode
+    primary: indigo
+    accent: deep purple
+
+  # Light Mode
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light mode
+    primary: blue
+    accent: deep orange
+
+extra:
+  social:
+    - icon: simple/discord
+      link: https://discord.com/invite/XkWmXWTcwD
+    
+
+  
