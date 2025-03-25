@@ -1,5 +1,15 @@
 site_name: Tectrix Wiki
 site_url: https://tectrixwiki.com
+plugins:
+  - search
+
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - markdown.extensions.wikilinks
+
 theme: 
   name: material
   logo: assets/logo.png
@@ -25,5 +35,5 @@ extra:
     - icon: simple/discord
       link: https://discord.com/invite/XkWmXWTcwD
     
-
-  
+use_directory_urls: false
+docs_dir:
